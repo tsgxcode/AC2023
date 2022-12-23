@@ -1,0 +1,23 @@
+body {
+    /*margin: 0;*/
+    padding: 0;
+    background-color: teal;
+}
+/*Welcome - End*/
+#header, #footer{
+    color: ghostwhite;
+}
+
+.mainMenu{
+    color: aquamarine;
+    /*Add animations*/
+}
+
+.secBox{
+    background-color: goldenrod;
+    align-items: center;
+    color: ghostwhite;
+    width: 700px;
+    height: 30px;
+    padding:5px;
+}

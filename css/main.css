@@ -1,7 +1,7 @@
 body {
     /*margin: 0;*/
     padding: 0;
-    background-color: teal;
+    background-color: 	#669966;
 }
 /*Welcome - End*/
 #header, #footer{
@@ -9,7 +9,7 @@ body {
 }
 
 .mainMenu{
-    color: aquamarine;
+    color: #CCCC66;
     /*Add animations*/
 }
 

@@ -4,7 +4,7 @@ body {
     background-color: 	#669966;
 }
 /*Welcome - End*/
-#header, #footer{
+#header{
     color: ghostwhite;
 }
 
@@ -20,4 +20,20 @@ body {
     width: 700px;
     height: 30px;
     padding:5px;
+}
+
+.secBox_2{
+    background-color: teal;
+    align-items: center;
+    color: ghostwhite;
+    width: 700px;
+    height: 30px;
+    padding:5px;
+}
+
+#footer{
+    background-color: #CCCC66;
+    color: ghostwhite;
+    padding: 10px;
+    
 }

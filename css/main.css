@@ -13,7 +13,6 @@ html{
 #header{
     color: ghostwhite;
     position: -50px;
-    
     width: 100%;
     height: 75px;
     background-color: #669966;
@@ -42,8 +41,17 @@ html{
     padding:5px;
 }
 
-#footer{
+.secBox_3{
     background-color: #CCCC66;
+    align-items: center;
+    color: ghostwhite;
+    width: 700px;
+    height: 30px;
+    padding:5px;
+}
+
+#footer{
+    background-color: #669966;
     color: ghostwhite;
     padding: 10px;
     

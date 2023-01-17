@@ -23,9 +23,17 @@ html{
     /*Add animations*/
 }
 
-.para{
-      text-align: left;
+#btn {
+    width: 70px;
+    height: 30px;
+    background: gray;
 }
+
+ a{
+    color: blueviolet; 
+    text-decoration: none;   
+    }
+
 .secBox{
     background-color: goldenrod;
     border-radius: 10px 20px;

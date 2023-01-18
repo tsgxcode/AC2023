@@ -33,8 +33,10 @@ p {
     text-align: justify;
     padding: 20px;
   }
-
-.secBox{
+/*Refactord SecBoxes to use one class for everything
+but Bgcolor
+*/
+.secBox, .secBox_3, .secBox_2{
     background-color: goldenrod;
     border-radius: 10px 20px;
     color:  ghostwhite;
@@ -43,24 +45,12 @@ p {
     padding:  5px;
 }
 
-.secBox_2{
+.secBox_2 {
     background-color: teal;
-    border-radius: 10px 20px;
-    align-items: center;
-    color: ghostwhite;
-    width: 700px;
-    height: 150px;
-    padding:5px;
 }
 
 .secBox_3{
     background-color: #CCCC66;
-    border-radius: 10px 20px;
-    align-items: center;
-    color: ghostwhite;
-    width: 700px;
-    height: 150px;
-    padding:5px;
 }
 
 #footer{

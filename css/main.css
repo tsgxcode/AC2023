@@ -3,20 +3,25 @@ body {
     margin-top:0;
     padding-top: 0;
     background-color: 	rgb(250,250,210);
-}
-html{
-    margin-top:0;
-    padding-top:0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
 /*Welcome - End*/
-#header {
+.header {
     color: ghostwhite;
-    height: 75px;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1px;
+    position: fixed;
     width: 100%;
     background-color: #669966;
-    position: absolute;
 }
+
+header {
+    display: block;
+}
+
 
 .mainMenu{
     color: #CCCC66;
@@ -42,7 +47,6 @@ but Bgcolor
     color:  ghostwhite;
     width:  700px;
     height: 150px;
-    padding:  5px;
 }
 
 .secBox_2 {
@@ -56,9 +60,6 @@ but Bgcolor
 #footer{
     background-color: #669966;
     color: ghostwhite;
-    padding: 10px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 /*Responsive Components*/

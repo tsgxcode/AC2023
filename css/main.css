@@ -12,6 +12,7 @@ body {
     color: ghostwhite;
     top: 0;
     left: 0;
+    
     right: 0;
     padding: 10px;
     position: fixed;
@@ -23,15 +24,40 @@ body {
 
 .mainMenu{
     color: #CCCC66;
+    padding: 40px;
     position: fixed;
     left:1300px;
     top: 115px;
     width: 100px;
     height: 30px;
-    /*Add animations*/
+    font: bold;
+    font-size: x-small;
+
 }
 
-#btn {
+/*Add animations*/
+/* 
+
+.mainMenu{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+
+
+*/
+
+#btn{
     position: relative;
     left: 580px;
     top: -66px;

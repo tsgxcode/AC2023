@@ -21,37 +21,31 @@ body {
     right: 0;
     padding: 10px;
     position: fixed;
-    width: 100%;
+    width: 200%;
     background-color: #669966;
     border-radius: 0% 0px 0px 20px;
     z-index: 1;
 }
 
-.mainMenu {}
+.mainMenu {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
 
+li {
+    top: -70px;
+    float: left;
 
+}
 
-/*Add animations*/
-/* 
+a {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
 
-.mainMenu{
-    display: block;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 18px;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: #333;
-    border: 2px solid #333;
-    letter-spacing: 2px;
-    text-align: center;
-    position: relative;
-    transition: all .35s;
-  }
-
-
-*/
 
 #btn {
     position: relative;
@@ -64,7 +58,10 @@ body {
     border-radius: 0px 10px 10px 0px;
 }
 
-
+.p {
+    text-align: justify;
+    padding: 10px;
+}
 
 /*Refactord SecBoxes to use one class for everything
 but Bgcolor

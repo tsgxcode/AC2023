@@ -8,11 +8,16 @@ body {
 }
 
 /*Welcome - End*/
+
+/*.h4 {
+    position: left 300px;
+    padding: 3px;
+}*/
+
 .header {
     color: ghostwhite;
     top: 0;
     left: 0;
-
     right: 0;
     padding: 10px;
     position: fixed;
@@ -22,54 +27,9 @@ body {
     z-index: 1;
 }
 
-.mainMenu {
-    color: #008080;
-    padding: 40px;
-    position: fixed;
-    left: 1300px;
-    top: 20px;
-    width: 100px;
-    height: 30px;
-    font: bold;
-    font-size: small;
+.mainMenu {}
 
-}
 
-#mMLink_1 {
-    padding: 1px;
-    background: #CCCC66;
-
-    border-radius: 0px 4px 4px 0px;
-    width: 100px;
-    height: 20px;
-}
-
-#mMLink_2 {
-    padding: 2px;
-    background: #CCCC66;
-
-    border-radius: 0px 4px 4px 0px;
-    width: 100px;
-    height: 20px;
-}
-
-#mMLink_3 {
-    padding: 2px;
-    background: #CCCC66;
-
-    border-radius: 0px 4px 4px 0px;
-    width: 100px;
-    height: 20px;
-}
-
-#mMLink_4 {
-    padding: 2px;
-    background: #CCCC66;
-
-    border-radius: 0px 4px 4px 0px;
-    width: 100px;
-    height: 20px;
-}
 
 /*Add animations*/
 /* 
@@ -104,10 +64,7 @@ body {
     border-radius: 0px 10px 10px 0px;
 }
 
-p {
-    text-align: justify;
-    padding: 10px;
-}
+
 
 /*Refactord SecBoxes to use one class for everything
 but Bgcolor

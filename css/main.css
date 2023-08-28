@@ -28,6 +28,9 @@ body {
 }
 
 .mainMenu {
+    top: 0px;
+    left: 0;
+    right: 0;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -49,9 +52,9 @@ a {
 
 #btn {
     position: relative;
-    left: 580px;
+    left: 540px;
     top: -66px;
-    width: 100px;
+    width: 150px;
     height: 25px;
     font-size: x-small;
     background: #ffffcc;

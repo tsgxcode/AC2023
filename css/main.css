@@ -28,14 +28,14 @@ body {
 }
 
 .mainMenu {
-    top: 10px;
-    margin-right: +75px;
-    left: 0;
-    right: 0;
+    top: 4px;
+    margin-left: +1100px;
     list-style-type: none;
     position: fixed;
     padding: 0;
     z-index: 3;
+
+
 }
 
 li {
@@ -44,15 +44,32 @@ li {
     border-radius: 2px;
     padding: 8px;
 
+
+
 }
 
 a {
     top: 0;
     left: 0;
     right: 0;
-    padding: 10px;
+    padding: 7px;
+    color: #669966;
 }
 
+li a {
+    color: aquamarine;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background: #CCCC66;
+    color: whitesmoke;
+    border-radius: 0 0 5px 5px;
+    text-transform: uppercase;
+    transition: .5s ease 0s;
+
+}
 
 
 #btn {
@@ -106,7 +123,5 @@ but Bgcolor
     width: 100%;
 
 }
-
-
 
 /*Responsive Components*/

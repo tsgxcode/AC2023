@@ -7,13 +7,6 @@ body {
         "Trebuchet MS", Verdana, sans-serif;
 }
 
-/*Welcome - End*/
-
-/*.h4 {
-    position: left 300px;
-    padding: 3px;
-}*/
-
 .header {
     color: ghostwhite;
     top: 0;
@@ -34,8 +27,6 @@ body {
     position: fixed;
     padding: 0;
     z-index: 3;
-
-
 }
 
 li {
@@ -43,9 +34,6 @@ li {
     float: right;
     border-radius: 2px;
     padding: 8px;
-
-
-
 }
 
 a {
@@ -71,7 +59,6 @@ li a:hover {
 
 }
 
-
 #btn {
     position: relative;
     left: 340px;
@@ -88,9 +75,6 @@ li a:hover {
     width: 45%;
 }
 
-/*Refactord SecBoxes to use one class for everything
-but Bgcolor
-*/
 .secBox,
 .secBox_3,
 .secBox_2 {
@@ -100,8 +84,6 @@ but Bgcolor
     padding: 10px;
     width: 700px;
     height: 250px;
-
-
 }
 
 .secBox_2 {
@@ -123,5 +105,3 @@ but Bgcolor
     width: 100%;
 
 }
-
-/*Responsive Components*/
